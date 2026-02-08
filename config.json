@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.6-3",
+    "lastTouchedAt": "2026-02-08T18:30:00.000Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-01-31T08:42:56.382Z",
+    "lastRunVersion": "2026.1.29",
+    "lastRunCommand": "onboard",
+    "lastRunMode": "local"
+  },
+  "models": {
+    "providers": {
+      "ollama": {
+        "baseUrl": "https://q0uru5v3th5d33-11434.proxy.runpod.net/v1",
+        "apiKey": "ollama-local",
+        "api": "openai-responses",
+        "models": [
+          {
+            "id": "gabegoodhart/minimax-m2.1:latest",
+            "name": "MiniMax M2.1",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 32768,
+            "maxTokens": 32768
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/gabegoodhart/minimax-m2.1:latest"
+      },
+      "models": {
+        "ollama/gabegoodhart/minimax-m2.1:latest": {}
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": { "mode": "safeguard" },
+      "maxConcurrent": 4,
+      "subagents": { "maxConcurrent": 8 },
+      "sandbox": {
+        "mode": "off"
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "8257472605:AAFNqpJmxVOuGiMt8XoFh9fPr-Un_Lkuico",
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "7148b23ed7811099ff6feaa08ae397f276ffe5109a62"
+    },
+    "tailscale": { "mode": "off", "resetOnExit": false }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": { "enabled": true }
+    }
+  }
+}
