@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.6-3",
+    "lastTouchedAt": "2026-02-08T21:45:00.000Z"
+  },
+  "models": {
+    "providers": {
+      "ollama": {
+        "baseUrl": "https://q0uru5v3th5d33-11434.proxy.runpod.net/v1",
+        "apiKey": "ollama-local",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "llama3.3:70b",
+            "name": "Llama 3.3 70B",
+            "reasoning": false,
+            "input": ["text"],
+            "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+            "contextWindow": 32768,
+            "maxTokens": 32768
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/llama3.3:70b"
+      },
+      "models": {
+        "ollama/llama3.3:70b": {}
+      },
+      "workspace": "/root/.openclaw/workspace",
+      "compaction": { "mode": "safeguard" },
+      "maxConcurrent": 4,
+      "subagents": { "maxConcurrent": 8 },
+      "sandbox": {
+        "mode": "off"
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "8257472605:AAFNqpJmxVOuGiMt8XoFh9fPr-Un_Lkuico",
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "lan",
+    "auth": {
+      "mode": "token",
+      "token": "7148b23ed7811099ff6feaa08ae397f276ffe5109a62"
+    },
+    "controlUi": {
+      "allowInsecureAuth": true,
+      "allowedOrigins": [
+        "https://q0uru5v3th5d33-18789.proxy.runpod.net",
+        "https://*.proxy.runpod.net"
+      ]
+    }
+  }
+}
