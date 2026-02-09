@@ -1,0 +1,10 @@
+[
+  {
+    "dealer_id": "DL9999",
+    "channel": "email",
+    "content": "Test message",
+    "sentiment": "neutral",
+    "next_action": "follow_up",
+    "timestamp": "2026-02-10T00:17:48.495624"
+  }
+]
