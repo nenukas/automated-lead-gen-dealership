@@ -14,5 +14,13 @@
     "sentiment": "neutral",
     "next_action": "follow_up_in_3_days",
     "timestamp": "2026-02-10T00:21:58.692104"
+  },
+  {
+    "dealer_id": "DL0002",
+    "channel": "email",
+    "content": "Sent initial email: Missing 40% of your sgCarMart leads after hours?",
+    "sentiment": "neutral",
+    "next_action": "follow_up_in_3_days",
+    "timestamp": "2026-02-10T00:22:03.718696"
   }
 ]
