@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-02-10T02:40:18.098019",
+    "phase": "1.5",
+    "status": "enrichment",
+    "progress": {
+      "total_dealers": 74,
+      "scraped_main_pages": 2,
+      "parsed_dealers": 2,
+      "enrichment_pending": 72,
+      "random_delay_enabled": true,
+      "crawl_delay_range": "20-40s",
+      "outreach_scheduled": "9am SGT",
+      "email_template_version": "updated pitch (automated assistant, booked appointments, premium tier)"
+    },
+    "notes": "Fixed parser, filtered main dealer pages, started scraping missing main pages. Next: Brave search enrichment for dealer websites and email extraction."
+  }
+]
