@@ -37,5 +37,24 @@
     "last_contact": "2026-02-10T00:22:06.070728",
     "created": "2026-02-10T00:09:34.607643",
     "sequence_step": "initial"
+  },
+  {
+    "dealer_id": "DL0003",
+    "name": "Motorcycle Haven SG",
+    "brands": [
+      "Yamaha"
+    ],
+    "sgCarMart_listings": 49,
+    "contact_info": {
+      "email": "contact@motorcyclehavensg.com.sg",
+      "phone": "+65 6520 8099",
+      "website": "https://www.motorcyclehavensg.com.sg",
+      "address": "879 Tampines, Singapore"
+    },
+    "status": "contacted",
+    "tier": "avoid",
+    "last_contact": "2026-02-10T00:22:10.712206",
+    "created": "2026-02-10T00:09:34.607651",
+    "sequence_step": "initial"
   }
 ]
