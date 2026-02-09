@@ -1,0 +1,21 @@
+[
+  {
+    "dealer_id": "DL0001",
+    "name": "Turbo City Cars",
+    "brands": [
+      "Toyota"
+    ],
+    "sgCarMart_listings": 23,
+    "contact_info": {
+      "email": "contact@turbocitycars.com.sg",
+      "phone": "+65 6489 7500",
+      "website": "https://www.turbocitycars.com.sg",
+      "address": "787 Orchard, Singapore"
+    },
+    "status": "contacted",
+    "tier": "basic_partner",
+    "last_contact": "2026-02-10T00:22:00.957013",
+    "created": "2026-02-10T00:09:34.607628",
+    "sequence_step": "initial"
+  }
+]
