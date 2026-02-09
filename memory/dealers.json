@@ -17,5 +17,25 @@
     "last_contact": "2026-02-10T00:22:00.957013",
     "created": "2026-02-10T00:09:34.607628",
     "sequence_step": "initial"
+  },
+  {
+    "dealer_id": "DL0002",
+    "name": "Premium Auto Singapore",
+    "brands": [
+      "Volvo",
+      "BMW"
+    ],
+    "sgCarMart_listings": 115,
+    "contact_info": {
+      "email": "contact@premiumautosingapore.com.sg",
+      "phone": "+65 6508 8898",
+      "website": "https://www.premiumautosingapore.com.sg",
+      "address": "225 Alexandra Road, Singapore"
+    },
+    "status": "contacted",
+    "tier": "premium_partner",
+    "last_contact": "2026-02-10T00:22:06.070728",
+    "created": "2026-02-10T00:09:34.607643",
+    "sequence_step": "initial"
   }
 ]
