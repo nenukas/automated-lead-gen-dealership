@@ -33,11 +33,12 @@
       "website": "https://www.premiumautosingapore.com.sg",
       "address": "225 Alexandra Road, Singapore"
     },
-    "status": "new",
+    "status": "contacted",
     "tier": "premium_partner",
     "created": "2026-02-10T00:09:34.607643",
     "sequence_step": "initial",
-    "last_email_subject": "Missing 40% of your sgCarMart leads after hours?"
+    "last_email_subject": "Missing 40% of your sgCarMart leads after hours?",
+    "last_contact": "2026-02-10T00:47:34.618766"
   },
   {
     "dealer_id": "DL0003",
