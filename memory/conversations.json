@@ -70,5 +70,15 @@
     "template": "initial",
     "recipient": "contact@premiumautosingapore.com.sg",
     "timestamp": "2026-02-10T00:47:34.618868"
+  },
+  {
+    "dealer_id": "DL0003",
+    "channel": "email",
+    "content": "Sent email: Missing 40% of your sgCarMart leads after hours?",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "initial",
+    "recipient": "contact@motorcyclehavensg.com.sg",
+    "timestamp": "2026-02-10T00:47:35.726791"
   }
 ]
