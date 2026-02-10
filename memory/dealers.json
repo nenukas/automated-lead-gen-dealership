@@ -36,9 +36,10 @@
       "phone": "63666000",
       "address": "61 Ubi Avenue 2 #01-03/04"
     },
-    "status": "new",
+    "status": "contacted",
     "sequence_step": "initial",
-    "last_contact": null
+    "last_contact": "2026-02-10T13:19:26.112564",
+    "last_email_subject": "How  can capture 40% more sgCarMart leads after hours"
   },
   {
     "dealer_id": "DL1088",

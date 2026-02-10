@@ -100,5 +100,15 @@
     "template": "initial",
     "recipient": "enquiry@thinkone.com.sg",
     "timestamp": "2026-02-10T13:18:22.202472"
+  },
+  {
+    "dealer_id": "DL1092",
+    "channel": "email",
+    "content": "Sent email: How  can capture 40% more sgCarMart leads after hours",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "initial",
+    "recipient": "hello@primecartraders.com.sg",
+    "timestamp": "2026-02-10T13:19:26.112780"
   }
 ]
