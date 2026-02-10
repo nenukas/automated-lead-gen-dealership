@@ -16,9 +16,9 @@
       "phone": "68413300",
       "address": "20 Ubi Road 4"
     },
-    "status": "new",
-    "sequence_step": "initial",
-    "last_contact": null
+    "status": "contacted",
+    "sequence_step": "follow_up_1",
+    "last_contact": "2026-02-10T13:49:39.789541"
   },
   {
     "dealer_id": "DL1092",
@@ -35,9 +35,9 @@
       "phone": "63666000",
       "address": "61 Ubi Avenue 2 #01-03/04"
     },
-    "status": "new",
-    "sequence_step": "initial",
-    "last_contact": null
+    "status": "contacted",
+    "sequence_step": "follow_up_1",
+    "last_contact": "2026-02-10T13:49:39.789553"
   },
   {
     "dealer_id": "DL1088",
@@ -52,9 +52,9 @@
       "phone": "68460020",
       "address": "61 Ubi Avenue 2 #02-15"
     },
-    "status": "new",
-    "sequence_step": "initial",
-    "last_contact": null
+    "status": "contacted",
+    "sequence_step": "follow_up_1",
+    "last_contact": "2026-02-10T13:49:39.789557"
   },
   {
     "dealer_id": "DL1108",
@@ -69,8 +69,8 @@
       "phone": "64625828",
       "address": "21 Toh Guan Road East #01-16/17"
     },
-    "status": "new",
-    "sequence_step": "initial",
-    "last_contact": null
+    "status": "contacted",
+    "sequence_step": "follow_up_1",
+    "last_contact": "2026-02-10T13:49:39.789560"
   }
 ]
