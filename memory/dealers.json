@@ -12,10 +12,12 @@
       "website": "https://www.twowheelsgarage.com.sg",
       "address": "18 Serangoon, Singapore"
     },
-    "status": "new",
+    "status": "contacted",
     "tier": "avoid",
     "created": "2026-02-10T01:46:37.856722",
-    "sequence_step": "initial"
+    "sequence_step": "initial",
+    "last_contact": "2026-02-10T13:16:20.140071",
+    "last_email_subject": "How  can capture 40% more sgCarMart leads after hours"
   },
   {
     "dealer_id": "DL0002",

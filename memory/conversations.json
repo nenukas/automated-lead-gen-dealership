@@ -80,5 +80,15 @@
     "template": "initial",
     "recipient": "contact@motorcyclehavensg.com.sg",
     "timestamp": "2026-02-10T00:47:35.726791"
+  },
+  {
+    "dealer_id": "DL0001",
+    "channel": "email",
+    "content": "Sent email: How  can capture 40% more sgCarMart leads after hours",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "initial",
+    "recipient": "contact@twowheelsgarage.com.sg",
+    "timestamp": "2026-02-10T13:16:20.140523"
   }
 ]
