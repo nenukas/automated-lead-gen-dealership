@@ -107,5 +107,23 @@
     "status": "scheduled_resume",
     "scheduled_resume_iso": "2026-02-10T14:51:29.034494",
     "notes": "Enrichment scheduled to resume after Brave API cooldown."
+  },
+  {
+    "timestamp": "2026-02-10T13:51:45.224691",
+    "phase": "2",
+    "status": "paused_until_cooldown",
+    "progress": {
+      "total_dealers": 74,
+      "parsed_dealers": 49,
+      "remaining": 25,
+      "enriched_dealers": 16,
+      "emails_found": 5,
+      "real_emails_sent": 4,
+      "daily_limit_used": 5,
+      "daily_limit_total": 150,
+      "brave_api_cooldown_until": "14:44 SGT",
+      "next_outreach": "2026-02-11 09:00 SGT"
+    },
+    "notes": "First outreach batch successful. Scraping near completion. Enrichment paused due to Brave API rate limit; will resume after cooldown. Zoho SMTP operational."
   }
 ]
