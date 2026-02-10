@@ -67,5 +67,23 @@
       "random_delay": "20-40s"
     },
     "notes": "Brave API rate limit hit (429). Pausing enrichment, resuming scraping of remaining main dealer pages. Enrichment will resume after rate limit resets."
+  },
+  {
+    "timestamp": "2026-02-10T13:46:01.805923",
+    "phase": "1.5",
+    "status": "cooldown",
+    "progress": {
+      "total_dealers": 74,
+      "parsed_dealers": 34,
+      "remaining": 40,
+      "enriched_dealers": 5,
+      "emails_found": 4,
+      "brave_api_cooldown": true,
+      "cooldown_until": "14:44 SGT",
+      "zoho_smtp_working": true,
+      "daily_emails_sent": 5,
+      "daily_limit": 150
+    },
+    "notes": "Brave API rate limit hit; enrichment paused for 1 hour. Scraping continues. Zoho SMTP still functional; monitoring for block."
   }
 ]
