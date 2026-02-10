@@ -100,5 +100,12 @@
       "zoho_smtp_ok": true
     },
     "notes": "Scraping continues. Enrichment paused for Brave API cooldown (1 hour). Zoho SMTP functional."
+  },
+  {
+    "timestamp": "2026-02-10T13:51:29.563240",
+    "phase": "1.5",
+    "status": "scheduled_resume",
+    "scheduled_resume_iso": "2026-02-10T14:51:29.034494",
+    "notes": "Enrichment scheduled to resume after Brave API cooldown."
   }
 ]
