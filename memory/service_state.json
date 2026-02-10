@@ -125,5 +125,20 @@
       "next_outreach": "2026-02-11 09:00 SGT"
     },
     "notes": "First outreach batch successful. Scraping near completion. Enrichment paused due to Brave API rate limit; will resume after cooldown. Zoho SMTP operational."
+  },
+  {
+    "timestamp": "2026-02-10T13:55:17.060037",
+    "phase": "1.5",
+    "status": "scraping_ongoing",
+    "progress": {
+      "total_dealers": 74,
+      "parsed_dealers": 62,
+      "enriched_dealers": 16,
+      "emails_found": 5,
+      "scraping_remaining": 12,
+      "brave_cooldown": true,
+      "zoho_smtp_ok": true
+    },
+    "notes": "Scraping continues. Enrichment paused for Brave API cooldown (1 hour). Zoho SMTP functional."
   }
 ]
