@@ -120,5 +120,15 @@
     "template": "initial",
     "recipient": "enquiries@leco.com.sg",
     "timestamp": "2026-02-10T13:20:31.053142"
+  },
+  {
+    "dealer_id": "DL1108",
+    "channel": "email",
+    "content": "Sent email: How  can capture 40% more sgCarMart leads after hours",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "initial",
+    "recipient": "leasing@layauto.com",
+    "timestamp": "2026-02-10T13:20:59.730346"
   }
 ]
