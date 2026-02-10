@@ -16,10 +16,9 @@
       "phone": "68413300",
       "address": "20 Ubi Road 4"
     },
-    "status": "contacted",
+    "status": "new",
     "sequence_step": "initial",
-    "last_contact": "2026-02-10T13:18:22.202306",
-    "last_email_subject": "How  can capture 40% more sgCarMart leads after hours"
+    "last_contact": null
   },
   {
     "dealer_id": "DL1092",
@@ -36,10 +35,9 @@
       "phone": "63666000",
       "address": "61 Ubi Avenue 2 #01-03/04"
     },
-    "status": "contacted",
+    "status": "new",
     "sequence_step": "initial",
-    "last_contact": "2026-02-10T13:19:26.112564",
-    "last_email_subject": "How  can capture 40% more sgCarMart leads after hours"
+    "last_contact": null
   },
   {
     "dealer_id": "DL1088",
@@ -54,10 +52,9 @@
       "phone": "68460020",
       "address": "61 Ubi Avenue 2 #02-15"
     },
-    "status": "contacted",
+    "status": "new",
     "sequence_step": "initial",
-    "last_contact": "2026-02-10T13:20:31.053003",
-    "last_email_subject": "How  can capture 40% more sgCarMart leads after hours"
+    "last_contact": null
   },
   {
     "dealer_id": "DL1108",
@@ -72,9 +69,8 @@
       "phone": "64625828",
       "address": "21 Toh Guan Road East #01-16/17"
     },
-    "status": "contacted",
+    "status": "new",
     "sequence_step": "initial",
-    "last_contact": "2026-02-10T13:20:59.730191",
-    "last_email_subject": "How  can capture 40% more sgCarMart leads after hours"
+    "last_contact": null
   }
 ]

@@ -51,5 +51,21 @@
       "brave_api_working": true
     },
     "notes": "First real outreach batch sent successfully. Zoho SMTP operational. Cron job scheduled for daily outreach. Continuing scraping and enrichment for remaining dealers."
+  },
+  {
+    "timestamp": "2026-02-10T13:32:09.741993",
+    "phase": "1.5",
+    "status": "scraping_resumed",
+    "progress": {
+      "total_dealers": 74,
+      "parsed_dealers": 24,
+      "remaining": 50,
+      "enriched_dealers": 5,
+      "emails_found": 4,
+      "brave_api_rate_limit": true,
+      "scraping_active": true,
+      "random_delay": "20-40s"
+    },
+    "notes": "Brave API rate limit hit (429). Pausing enrichment, resuming scraping of remaining main dealer pages. Enrichment will resume after rate limit resets."
   }
 ]
