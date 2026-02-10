@@ -220,5 +220,20 @@
       }
     ],
     "notes": "All emails sent successfully; no bounces or invalid emails detected yet. Zoho SMTP operational. Monitoring for bounce backs (check logs periodically)."
+  },
+  {
+    "timestamp": "2026-02-10T14:20:20.881471",
+    "phase": "1",
+    "status": "scraping_complete",
+    "progress": {
+      "total_dealers": 74,
+      "parsed_dealers": 70,
+      "enriched_dealers": 16,
+      "emails_found": 5,
+      "remaining_enrichment": 54,
+      "brave_cooldown_until": "14:50 SGT",
+      "next_step": "enrichment_resume"
+    },
+    "notes": "All 74 main dealer pages scraped and parsed. Enrichment paused for Brave API cooldown; resumes at 14:50 SGT."
   }
 ]
