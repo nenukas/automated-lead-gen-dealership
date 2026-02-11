@@ -59,69 +59,51 @@ Automate lead acquisition and conversion for Singapore car and motorcycle dealer
 - **Status:** Future
 - **Tools:** Compliance checklist, multi‑region infrastructure.
 
-## 3. Service Plans & Pricing Tiers
+## 3. Service Plans & Pricing Tiers (Post‑PSG Grant)
+
+**Singapore Government Grant Eligibility:**  
+AutoLeads SG qualifies under the **Productivity Solutions Grant (PSG)** – *Chatbots for Customer Engagement* category (pre‑approved by IMDA SMEs Go Digital). Dealers can claim **up to 70% funding**, reducing net cost significantly.
+
+| Tier | Original (Pre‑Grant) | **New List Price** | **After 70% PSG Grant** | Net Cost vs Original |
+|------|----------------------|-------------------|------------------------|----------------------|
+| **Basic** (Pay‑per‑appointment) | $0 + $20/appt | **$0 + $30/appt** | $0 + **$9/appt** | **55% cheaper** |
+| **Premium** (Full Automation) | $299/mo + $15/appt | **$449/mo + $22.50/appt** | **$134.70/mo + $6.75/appt** | **55% cheaper** |
+| **Enterprise** (White‑Label) | $999/mo (unlimited) | **$1,499/mo** | **$449.70/mo** | **55% cheaper** |
 
 ### Tier 1: Basic (Outreach‑Only)
-- **Price:** SGD 0 upfront + **SGD 20 per booked appointment**
-- **Features:**
-  - Personalised cold‑email outreach (max 150 emails/day)
-  - Lead qualification via AI chatbot
-  - Basic appointment scheduling
-  - Weekly performance report
+- **Price:** SGD 0 upfront + **SGD 30 per booked appointment**  
+  *After 70% PSG grant:* **SGD 9 per appointment**
+- **Features:** Personalised cold‑email outreach (150/day max), AI lead qualification, basic appointment scheduling, weekly report.
 - **Target:** Small dealerships (<10 listings)
 
 ### Tier 2: Premium (Full Automation)
-- **Price:** **SGD 299/month** + SGD 15 per booked appointment
-- **Features:**
-  - Everything in Basic
-  - AI‑powered response handling (24/7)
-  - LinkedIn semi‑automation
-  - WhatsApp follow‑up module
-  - Cal.com integration (direct calendar booking)
-  - Advanced analytics dashboard
-  - A/B testing of messaging
+- **Price:** **SGD 449/month** + SGD 22.50 per appointment  
+  *After 70% PSG grant:* **SGD 134.70/month** + SGD 6.75 per appointment
+- **Features:** Everything in Basic + 24/7 AI response handling, LinkedIn semi‑automation, WhatsApp follow‑up, Cal.com integration, advanced analytics, A/B testing.
 - **Target:** Mid‑size dealerships (10‑50 listings)
 
 ### Tier 3: Enterprise (White‑Label)
-- **Price:** **SGD 999/month** (unlimited appointments)
-- **Features:**
-  - Everything in Premium
-  - White‑label branding
-  - Custom workflow design
-  - Priority support
-  - API access
-  - Ad‑management module (optional add‑on)
+- **Price:** **SGD 1,499/month** (unlimited appointments)  
+  *After 70% PSG grant:* **SGD 449.70/month**
+- **Features:** Everything in Premium + white‑label branding, custom workflow design, priority support, API access, ad‑management module (optional).
 - **Target:** Large dealership groups & franchises
 
 **Payment Model:**  
-- **Pay‑per‑appointment:** Charged only when a demo/appointment is booked.
-- **Monthly subscription:** Fixed fee plus reduced per‑appointment rate.
+- **Pay‑per‑appointment:** Charged only when demo/appointment is booked.
+- **Monthly subscription:** Fixed fee + reduced per‑appointment rate.
 - **No contract;** cancel anytime.
+- **PSG Claim Process:** Dealer pays full price, submits invoice with PSG claim, receives 70% reimbursement within weeks.
 
-## 4. Current Infrastructure
+## 4. Infrastructure (Compressed)
 
-### API Keys & Services
-- **GitHub:** Memory sync (`automated‑lead‑gen‑dealership` repo)
-- **Zoho Mail:** SMTP sending (app‑specific password)
-- **SmartProxy:** Rotating proxies for scraping (IP whitelisted)
-- **Brave Search API:** Email enrichment (rate‑limited)
-- **Stripe:** Payment processing (key available)
-- **HubSpot:** CRM integration (key available)
-- **Cal.com:** Meeting scheduling (key available)
-- **DeepSeek Chat API:** Required for Phase 3 (pending key)
+**APIs:** GitHub (memory sync), Zoho SMTP, SmartProxy (rotating), Brave Search (email enrichment), Stripe (payments), HubSpot (CRM), Cal.com (scheduling). DeepSeek Chat API pending.
 
-### Codebase
-- **Location:** `/home/nenuka/.openclaw/workspace/autoleads`
-- **Modules:**
-  - `config/` – Secure key management
-  - `scripts/` – Core automation scripts
-  - `templates/` – Email templates (initial, follow‑up, breakup)
-  - `memory/` – Local JSON storage (synced to GitHub)
-  - `memory_repo/` – GitHub‑backed persistent memory
+**Code:** `/home/nenuka/.openclaw/workspace/autoleads/` – config, scripts, templates, memory (GitHub‑backed).
 
-### Cron Jobs
-1. **Morning outreach batch:** Mon‑Fri 9am SGT (limit 10 emails)
-2. **Enrichment resumption:** After Brave API cooldown
+**Cron Jobs:**  
+- Outreach: Mon‑Fri 9am SGT (limit 10) + 9:30am backup  
+- Enrichment: 2am SGT (overnight) + 2pm SGT (daytime)  
+- Follow‑ups: Automated 3‑day/7‑day sequences
 
 ## 5. Email Tracking & A/B Testing
 
@@ -131,22 +113,26 @@ Automate lead acquisition and conversion for Singapore car and motorcycle dealer
 - **Statistics:** Open rate, click‑through rate, reply rate tracked per template and variant.
 - **Optimization:** Continuous A/B testing to improve conversion rates.
 
-## 7. Key Metrics (Live)
-- **Total dealers in database:** 74
-- **Dealers contacted (today):** 4 (status: contacted)
-- **Emails sent (today):** 10 (8 real, 2 mock)
-- **Invalid emails/bounces:** 0
+## 6. Key Metrics (Live)
+- **Parsed dealers:** 70
+- **Enriched with data:** 26
+- **Valid emails collected:** 5
+- **Contacted dealers:** 4
+- **New dealers awaiting contact:** 1 (`info@carzworld.com.sg`)
+- **Emails sent today:** 0 (no new dealers ready)
 - **Daily email limit:** 150 (Zoho)
 - **Proxy usage:** ~10 GB/month (SmartProxy)
+- **A/B variants:** 2 (`initial_A.md`, `initial_B.md`)
 
 ## 7. Next Immediate Actions
-1. Resume Brave API enrichment (54 dealers pending)
-2. Send follow‑up emails to contacted dealers (3‑day wait)
-3. Implement LinkedIn semi‑automation (Phase 5)
-4. Integrate Cal.com for direct booking
-5. Obtain DeepSeek Chat API key for Phase 3
+1. **Overnight enrichment** (2am SGT) – enhanced script targeting 20‑30 more emails.
+2. **Tomorrow's outreach** (9am SGT) – A/B testing for newly enriched dealers.
+3. **Follow‑up emails** – 4 contacted dealers (3‑day wait, due tomorrow).
+4. **A/B optimization** – monitor open/reply rates, adjust variants.
+5. **Web server setup** – for pixel/link tracking (when ready).
+6. **Reply monitoring** – poll Zoho inbox for dealer responses.
 
-## 9. Contact & Support
+## 8. Contact & Support
 - **Primary Contact:** Nenuka (@Sk_nuka)
 - **Phone:** +65 87899536
 - **Email:** adminone@islandicinsights.com
