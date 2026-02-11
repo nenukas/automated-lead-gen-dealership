@@ -106,7 +106,7 @@ Qualifies under **Productivity Solutions Grant (PSG)** – *Chatbots for Custome
 
 **Cron Jobs:**  
 - Outreach: Mon‑Fri 9am SGT (limit 10) + 9:30am backup  
-- Enrichment: 2am SGT (overnight) + 2pm SGT (daytime)  
+- Enrichment: 5am SGT (overnight) + 2pm SGT (daytime)  
 - Follow‑ups: Automated 3‑day/7‑day sequences
 
 ## 5. Email Tracking & A/B Testing
