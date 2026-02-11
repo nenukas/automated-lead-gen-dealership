@@ -59,40 +59,44 @@ Automate lead acquisition and conversion for Singapore car and motorcycle dealer
 - **Status:** Future
 - **Tools:** Compliance checklist, multi‑region infrastructure.
 
-## 3. Service Plans & Pricing Tiers (Post‑PSG Grant)
+## 3. Service Plans & Pricing Tiers (Enterprise‑Grade)
+
+**Industry‑Standard Pricing:** Singapore automotive dealership automation solutions range from **SGD 4,000–12,000/month**. AutoLeads SG is positioned as a premium, grant‑eligible solution with proven ROI.
 
 **Singapore Government Grant Eligibility:**  
-AutoLeads SG qualifies under the **Productivity Solutions Grant (PSG)** – *Chatbots for Customer Engagement* category (pre‑approved by IMDA SMEs Go Digital). Dealers can claim **up to 70% funding**, reducing net cost significantly.
+Qualifies under **Productivity Solutions Grant (PSG)** – *Chatbots for Customer Engagement* (pre‑approved by IMDA SMEs Go Digital). Dealers can claim **up to 70% funding**, making enterprise‑grade automation affordable.
 
-| Tier | Original (Pre‑Grant) | **New List Price** | **After 70% PSG Grant** | Net Cost vs Original |
-|------|----------------------|-------------------|------------------------|----------------------|
-| **Basic** (Pay‑per‑appointment) | $0 + $20/appt | **$0 + $30/appt** | $0 + **$9/appt** | **55% cheaper** |
-| **Premium** (Full Automation) | $299/mo + $15/appt | **$449/mo + $22.50/appt** | **$134.70/mo + $6.75/appt** | **55% cheaper** |
-| **Enterprise** (White‑Label) | $999/mo (unlimited) | **$1,499/mo** | **$449.70/mo** | **55% cheaper** |
+| Tier | **Monthly List Price** | **After 70% PSG Grant** | **Net Monthly Cost** | ROI Example (22 extra appointments) |
+|------|------------------------|------------------------|----------------------|-------------------------------------|
+| **Pro** (Core Automation) | **SGD 4,000** | **SGD 1,200** | Dealer pays **30%** | 22 × $1,500 avg. sale = **$33,000 revenue** |
+| **Premium** (Full Suite) | **SGD 9,000** | **SGD 2,700** | Dealer pays **30%** | 35 × $1,500 avg. sale = **$52,500 revenue** |
+| **Enterprise** (White‑Label) | **SGD 15,000** | **SGD 4,500** | Dealer pays **30%** | Unlimited appointments + branding |
 
-### Tier 1: Basic (Outreach‑Only)
-- **Price:** SGD 0 upfront + **SGD 30 per booked appointment**  
-  *After 70% PSG grant:* **SGD 9 per appointment**
-- **Features:** Personalised cold‑email outreach (150/day max), AI lead qualification, basic appointment scheduling, weekly report.
-- **Target:** Small dealerships (<10 listings)
+### Tier 1: Pro (Core Automation)
+- **Price:** **SGD 4,000/month** (*after grant:* **SGD 1,200/month**)
+- **Features:** Personalised cold‑email outreach (150/day max), AI lead qualification, basic appointment scheduling, weekly performance dashboard.
+- **Target:** Single‑location dealerships (10‑30 listings)
+- **ROI:** Average 22 extra appointments/month → **$33,000 potential revenue** at $1,500 avg. sale.
 
-### Tier 2: Premium (Full Automation)
-- **Price:** **SGD 449/month** + SGD 22.50 per appointment  
-  *After 70% PSG grant:* **SGD 134.70/month** + SGD 6.75 per appointment
-- **Features:** Everything in Basic + 24/7 AI response handling, LinkedIn semi‑automation, WhatsApp follow‑up, Cal.com integration, advanced analytics, A/B testing.
-- **Target:** Mid‑size dealerships (10‑50 listings)
+### Tier 2: Premium (Full Automation Suite)
+- **Price:** **SGD 9,000/month** (*after grant:* **SGD 2,700/month**)
+- **Features:** Everything in Pro + 24/7 AI response handling, LinkedIn semi‑automation, WhatsApp follow‑up module, Cal.com integration, advanced analytics, A/B testing, custom workflow design.
+- **Target:** Multi‑brand dealerships (30‑100 listings)
+- **ROI:** Average 35 extra appointments/month → **$52,500 potential revenue** at $1,500 avg. sale.
 
 ### Tier 3: Enterprise (White‑Label)
-- **Price:** **SGD 1,499/month** (unlimited appointments)  
-  *After 70% PSG grant:* **SGD 449.70/month**
-- **Features:** Everything in Premium + white‑label branding, custom workflow design, priority support, API access, ad‑management module (optional).
-- **Target:** Large dealership groups & franchises
+- **Price:** **SGD 15,000/month** (*after grant:* **SGD 4,500/month**)
+- **Features:** Everything in Premium + white‑label branding, dedicated support, API access, ad‑management module, compliance reporting, custom integrations.
+- **Target:** Dealership groups & franchises (100+ listings)
+- **ROI:** Unlimited appointments + brand equity.
 
 **Payment Model:**  
-- **Pay‑per‑appointment:** Charged only when demo/appointment is booked.
-- **Monthly subscription:** Fixed fee + reduced per‑appointment rate.
-- **No contract;** cancel anytime.
-- **PSG Claim Process:** Dealer pays full price, submits invoice with PSG claim, receives 70% reimbursement within weeks.
+- **Monthly subscription only** – no per‑appointment fees.
+- **Annual commitment** (12‑month minimum) – standard for enterprise B2B.
+- **PSG Claim Process:** Dealer pays full list price, submits invoice with PSG claim, receives 70% reimbursement within 4‑6 weeks.
+- **Implementation fee:** One‑time SGD 2,000 (also PSG‑eligible).
+
+**Positioning:** "Hiring a 24/7 sales rep costs $5,000–8,000/month. Our AI assistant delivers similar results at 30% of the cost after government grant."
 
 ## 4. Infrastructure (Compressed)
 
