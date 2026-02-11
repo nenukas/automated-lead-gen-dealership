@@ -72,5 +72,24 @@
     "status": "contacted",
     "sequence_step": "follow_up_1",
     "last_contact": "2026-02-10T13:49:39.789560"
+  },
+  {
+    "dealer_id": "DL1248",
+    "name": "Carz World Pte Ltd",
+    "brands": [
+      "Toyota",
+      "Nissan",
+      "Honda",
+      "Suzuki"
+    ],
+    "sgCarMart_listings": 20,
+    "contact_info": {
+      "email": "info@carzworld.com.sg",
+      "phone": "65709482",
+      "address": "33 Ubi Avenue 3 #01-57/58"
+    },
+    "status": "new",
+    "sequence_step": "initial",
+    "last_contact": null
   }
 ]
