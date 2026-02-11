@@ -123,7 +123,15 @@ Automate lead acquisition and conversion for Singapore car and motorcycle dealer
 1. **Morning outreach batch:** Mon‑Fri 9am SGT (limit 10 emails)
 2. **Enrichment resumption:** After Brave API cooldown
 
-## 5. Key Metrics (Live)
+## 5. Email Tracking & A/B Testing
+
+**Implemented:** 2026‑02‑11
+- **Email tracking:** Logs all sent emails with unique message IDs, tracks opens (via pixel), clicks (via link redirect), and replies (manual/inbox monitoring).
+- **A/B testing:** Two variants per template (A/B), assigned via consistent hashing. Variants differ in subject line, value proposition, and call‑to‑action.
+- **Statistics:** Open rate, click‑through rate, reply rate tracked per template and variant.
+- **Optimization:** Continuous A/B testing to improve conversion rates.
+
+## 7. Key Metrics (Live)
 - **Total dealers in database:** 74
 - **Dealers contacted (today):** 4 (status: contacted)
 - **Emails sent (today):** 10 (8 real, 2 mock)
@@ -131,14 +139,14 @@ Automate lead acquisition and conversion for Singapore car and motorcycle dealer
 - **Daily email limit:** 150 (Zoho)
 - **Proxy usage:** ~10 GB/month (SmartProxy)
 
-## 6. Next Immediate Actions
+## 7. Next Immediate Actions
 1. Resume Brave API enrichment (54 dealers pending)
 2. Send follow‑up emails to contacted dealers (3‑day wait)
 3. Implement LinkedIn semi‑automation (Phase 5)
 4. Integrate Cal.com for direct booking
 5. Obtain DeepSeek Chat API key for Phase 3
 
-## 7. Contact & Support
+## 9. Contact & Support
 - **Primary Contact:** Nenuka (@Sk_nuka)
 - **Phone:** +65 87899536
 - **Email:** adminone@islandicinsights.com
