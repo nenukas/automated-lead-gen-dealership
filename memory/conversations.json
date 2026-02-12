@@ -130,5 +130,15 @@
     "template": "initial",
     "recipient": "leasing@layauto.com",
     "timestamp": "2026-02-10T13:20:59.730346"
+  },
+  {
+    "dealer_id": "DL1248",
+    "channel": "email",
+    "content": "Sent email: Automate your sgCarMart lead response & book 22+ extra appointments/month",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "initial",
+    "recipient": "info@carzworld.com.sg",
+    "timestamp": "2026-02-12T09:30:13.215539"
   }
 ]
