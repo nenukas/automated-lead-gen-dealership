@@ -17,7 +17,7 @@
       "address": "20 Ubi Road 4"
     },
     "status": "contacted",
-    "sequence_step": "follow_up_1",
+    "sequence_step": "followup",
     "last_contact": "2026-02-10T13:49:39.789541"
   },
   {
@@ -36,7 +36,7 @@
       "address": "61 Ubi Avenue 2 #01-03/04"
     },
     "status": "contacted",
-    "sequence_step": "follow_up_1",
+    "sequence_step": "followup",
     "last_contact": "2026-02-10T13:49:39.789553"
   },
   {
@@ -53,7 +53,7 @@
       "address": "61 Ubi Avenue 2 #02-15"
     },
     "status": "contacted",
-    "sequence_step": "follow_up_1",
+    "sequence_step": "followup",
     "last_contact": "2026-02-10T13:49:39.789557"
   },
   {
@@ -70,7 +70,7 @@
       "address": "21 Toh Guan Road East #01-16/17"
     },
     "status": "contacted",
-    "sequence_step": "follow_up_1",
+    "sequence_step": "followup",
     "last_contact": "2026-02-10T13:49:39.789560"
   },
   {
@@ -88,9 +88,70 @@
       "phone": "65709482",
       "address": "33 Ubi Avenue 3 #01-57/58"
     },
-    "status": "contacted",
+    "status": "new",
     "sequence_step": "initial",
-    "last_contact": "2026-02-12T09:30:13.209200",
-    "last_email_subject": "Automate your sgCarMart lead response & book 22+ extra appointments/month"
+    "last_contact": null
+  },
+  {
+    "dealer_id": "DL1317",
+    "name": "MYCAR",
+    "brands": [
+      "Toyota",
+      "Nissan",
+      "Honda",
+      "Suzuki"
+    ],
+    "sgCarMart_listings": 24,
+    "contact_info": {
+      "email": "8885-8128warranty@mycar.sg",
+      "phone": "65700007",
+      "address": "61 Ubi Avenue 2 #01-11"
+    },
+    "status": "new",
+    "sequence_step": "initial",
+    "last_contact": null
+  },
+  {
+    "dealer_id": "DL1341",
+    "name": "Vin's Automotive Group",
+    "brands": [
+      "Seres",
+      "Nissan",
+      "Honda",
+      "Toyota",
+      "Suzuki"
+    ],
+    "sgCarMart_listings": 23,
+    "contact_info": {
+      "email": "enquiry@vinsautogroup.com.sg",
+      "phone": "85002121",
+      "address": "24 Sin Ming Lane #01-91/92/93"
+    },
+    "status": "new",
+    "sequence_step": "initial",
+    "last_contact": null
+  },
+  {
+    "dealer_id": "DL1549",
+    "name": "EZY-1 Pte Ltd",
+    "brands": [
+      "Nissan",
+      "SRM",
+      "Maxus",
+      "BYD",
+      "Toyota",
+      "Honda",
+      "Suzuki",
+      "Hino"
+    ],
+    "sgCarMart_listings": 9,
+    "contact_info": {
+      "email": "enquiry@ezy-1.comAdmin",
+      "phone": "68730300",
+      "address": "55 Serangoon North Avenue 4 #08-07"
+    },
+    "status": "new",
+    "sequence_step": "initial",
+    "last_contact": null
   }
 ]
