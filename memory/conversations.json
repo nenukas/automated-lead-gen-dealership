@@ -140,5 +140,15 @@
     "template": "initial",
     "recipient": "info@carzworld.com.sg",
     "timestamp": "2026-02-12T09:30:13.215539"
+  },
+  {
+    "dealer_id": "DL1049",
+    "channel": "email",
+    "content": "Sent email: Quick question about 's after\u2011hours leads",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "followup",
+    "recipient": "enquiry@thinkone.com.sg",
+    "timestamp": "2026-02-12T18:50:02.487534"
   }
 ]
