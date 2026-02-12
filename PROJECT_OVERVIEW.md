@@ -105,9 +105,9 @@ Qualifies under **Productivity Solutions Grant (PSG)** – *Chatbots for Custome
 **Code:** `/home/nenuka/.openclaw/workspace/autoleads/` – config, scripts, templates, memory (GitHub‑backed).
 
 **Cron Jobs:**  
-- Outreach: Mon‑Fri 9am SGT (limit 10) + 9:30am backup  
+- Outreach: Mon‑Fri 9am SGT (limit 20) + 9:30am backup  
 - Enrichment: 5am SGT (overnight) + 2pm SGT (daytime)  
-- Follow‑ups: Automated 3‑day/7‑day sequences
+- Follow‑ups: Automated 2‑day/5‑day sequences (accelerated)
 
 ## 5. Email Tracking & A/B Testing
 
@@ -139,13 +139,17 @@ Qualifies under **Productivity Solutions Grant (PSG)** – *Chatbots for Custome
 - **Solution:** Proxy manager updated with new endpoint, batch fetching (5 proxies/60s), and proper parsing.
 - **Status:** ✅ Resolved. Rotating proxies now functional with Singapore residential IPs.
 
+**2026‑02‑12 08:40 SGT – Outreach scaling & enrichment improvements:**
+- **Changes:** Increased outreach batch size to 20 emails, accelerated follow‑up sequence (2‑day initial→follow‑up, 3‑day follow‑up→breakup), enhanced email extraction with mailto detection, added automotive‑specific prefixes, improved domain guessing with hyphenated slugs.
+- **Status:** ✅ Implemented. Expected to increase email collection yield and outreach velocity.
+
 ## 7. Next Immediate Actions
-1. **Daytime enrichment** (2pm SGT) – target 8 more dealers (direct connection).
-2. **Morning outreach** (9am SGT) – A/B testing for newly enriched dealers.
-3. **Follow‑up emails** – 4 contacted dealers (3‑day wait, due today).
-4. **Proxy investigation** – diagnose SmartProxy DNS resolution issue.
-5. **A/B optimization** – monitor open/reply rates, adjust variants.
-6. **Reply monitoring** – poll Zoho inbox for dealer responses.
+1. **Daytime enrichment** (2pm SGT) – target 8 more dealers using rotating proxies.
+2. **Morning outreach** (9am SGT tomorrow) – A/B testing with new pricing, limit 20 emails.
+3. **Follow‑up emails** – 4 contacted dealers (2‑day wait, due today).
+4. **A/B optimization** – monitor open/reply rates, adjust variants.
+5. **Reply monitoring** – poll Zoho inbox for dealer responses.
+6. **Email extraction yield** – aim for 30‑40% valid emails from enriched dealers.
 
 ## 8. Contact & Support
 - **Primary Contact:** Nenuka (@Sk_nuka)
