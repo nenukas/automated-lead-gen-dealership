@@ -125,7 +125,7 @@ Qualifies under **Productivity Solutions Grant (PSG)** – *Chatbots for Custome
 - **New dealers awaiting contact:** 1 (`info@carzworld.com.sg`)
 - **Emails sent today:** 0 (no new dealers ready)
 - **Daily email limit:** 150 (Zoho)
-- **Proxy usage:** ~10 GB/month (SmartProxy – currently offline)
+- **Proxy usage:** ~10 GB/month (SmartProxy rotating API working – 5 proxies/batch)
 - **A/B variants:** 2 (`initial_A.md`, `initial_B.md`)
 
 ### Recent Issues & Resolutions
@@ -133,6 +133,11 @@ Qualifies under **Productivity Solutions Grant (PSG)** – *Chatbots for Custome
 - **Root cause:** SmartProxy DNS resolution failure (`as.smartproxy.net` unreachable).
 - **Solution:** Enrichment script updated with timeout handling (120s per dealer) and automatic fallback to direct connections when proxy fails.
 - **Status:** ✅ Resolved. Script processes up to 8 dealers/daytime, 20 dealers/overnight with 1‑2 minute delays between attempts.
+
+**2026‑02‑12 08:13 SGT – SmartProxy API endpoint updated:**
+- **Root cause:** Rotating proxy API required updated parameters (`num=5`, `life=60`, `lb=%5Cn`).
+- **Solution:** Proxy manager updated with new endpoint, batch fetching (5 proxies/60s), and proper parsing.
+- **Status:** ✅ Resolved. Rotating proxies now functional with Singapore residential IPs.
 
 ## 7. Next Immediate Actions
 1. **Daytime enrichment** (2pm SGT) – target 8 more dealers (direct connection).
