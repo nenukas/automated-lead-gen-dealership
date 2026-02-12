@@ -119,21 +119,27 @@ Qualifies under **Productivity Solutions Grant (PSG)** – *Chatbots for Custome
 
 ## 6. Key Metrics (Live)
 - **Parsed dealers:** 70
-- **Enriched with data:** 26
-- **Valid emails collected:** 5
+- **Enriched with data:** 38
+- **Valid emails collected:** 8
 - **Contacted dealers:** 4
 - **New dealers awaiting contact:** 1 (`info@carzworld.com.sg`)
 - **Emails sent today:** 0 (no new dealers ready)
 - **Daily email limit:** 150 (Zoho)
-- **Proxy usage:** ~10 GB/month (SmartProxy)
+- **Proxy usage:** ~10 GB/month (SmartProxy – currently offline)
 - **A/B variants:** 2 (`initial_A.md`, `initial_B.md`)
 
+### Recent Issues & Resolutions
+**2026‑02‑12 05:03 SGT – Enrichment script hanging:**
+- **Root cause:** SmartProxy DNS resolution failure (`as.smartproxy.net` unreachable).
+- **Solution:** Enrichment script updated with timeout handling (120s per dealer) and automatic fallback to direct connections when proxy fails.
+- **Status:** ✅ Resolved. Script processes up to 8 dealers/daytime, 20 dealers/overnight with 1‑2 minute delays between attempts.
+
 ## 7. Next Immediate Actions
-1. **Overnight enrichment** (2am SGT) – enhanced script targeting 20‑30 more emails.
-2. **Tomorrow's outreach** (9am SGT) – A/B testing for newly enriched dealers.
-3. **Follow‑up emails** – 4 contacted dealers (3‑day wait, due tomorrow).
-4. **A/B optimization** – monitor open/reply rates, adjust variants.
-5. **Web server setup** – for pixel/link tracking (when ready).
+1. **Daytime enrichment** (2pm SGT) – target 8 more dealers (direct connection).
+2. **Morning outreach** (9am SGT) – A/B testing for newly enriched dealers.
+3. **Follow‑up emails** – 4 contacted dealers (3‑day wait, due today).
+4. **Proxy investigation** – diagnose SmartProxy DNS resolution issue.
+5. **A/B optimization** – monitor open/reply rates, adjust variants.
 6. **Reply monitoring** – poll Zoho inbox for dealer responses.
 
 ## 8. Contact & Support
