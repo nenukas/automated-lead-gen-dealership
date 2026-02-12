@@ -150,5 +150,15 @@
     "template": "followup",
     "recipient": "enquiry@thinkone.com.sg",
     "timestamp": "2026-02-12T18:50:02.487534"
+  },
+  {
+    "dealer_id": "DL1092",
+    "channel": "email",
+    "content": "Sent email: Quick question about 's after\u2011hours leads",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "followup",
+    "recipient": "hello@primecartraders.com.sg",
+    "timestamp": "2026-02-12T18:52:06.414902"
   }
 ]
