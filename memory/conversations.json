@@ -160,5 +160,15 @@
     "template": "followup",
     "recipient": "hello@primecartraders.com.sg",
     "timestamp": "2026-02-12T18:52:06.414902"
+  },
+  {
+    "dealer_id": "DL1088",
+    "channel": "email",
+    "content": "Sent email: Quick question about 's after\u2011hours leads",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "followup",
+    "recipient": "enquiries@leco.com.sg",
+    "timestamp": "2026-02-12T18:54:12.394915"
   }
 ]
