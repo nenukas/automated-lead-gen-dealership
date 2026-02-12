@@ -170,5 +170,15 @@
     "template": "followup",
     "recipient": "enquiries@leco.com.sg",
     "timestamp": "2026-02-12T18:54:12.394915"
+  },
+  {
+    "dealer_id": "DL1108",
+    "channel": "email",
+    "content": "Sent email: Quick question about 's after\u2011hours leads",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "followup",
+    "recipient": "leasing@layauto.com",
+    "timestamp": "2026-02-12T18:56:16.237068"
   }
 ]
