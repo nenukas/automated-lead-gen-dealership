@@ -190,5 +190,15 @@
     "template": "initial",
     "recipient": "info@carzworld.com.sg",
     "timestamp": "2026-02-13T09:00:15.426169"
+  },
+  {
+    "dealer_id": "DL1317",
+    "channel": "email",
+    "content": "Sent email: Automate your sgCarMart lead response & book 22+ extra appointments/month",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "initial",
+    "recipient": "8885-8128warranty@mycar.sg",
+    "timestamp": "2026-02-13T09:01:44.472979"
   }
 ]

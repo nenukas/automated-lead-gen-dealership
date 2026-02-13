@@ -112,9 +112,10 @@
       "phone": "65700007",
       "address": "61 Ubi Avenue 2 #01-11"
     },
-    "status": "new",
+    "status": "contacted",
     "sequence_step": "initial",
-    "last_contact": null
+    "last_contact": "2026-02-13T09:01:44.472675",
+    "last_email_subject": "Automate your sgCarMart lead response & book 22+ extra appointments/month"
   },
   {
     "dealer_id": "DL1341",
