@@ -157,8 +157,9 @@
       "phone": "68730300",
       "address": "55 Serangoon North Avenue 4 #08-07"
     },
-    "status": "new",
+    "status": "contacted",
     "sequence_step": "initial",
-    "last_contact": null
+    "last_contact": "2026-02-13T09:03:14.819904",
+    "last_email_subject": "Automate your sgCarMart lead response & book 22+ extra appointments/month"
   }
 ]
