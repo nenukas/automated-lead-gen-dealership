@@ -135,8 +135,8 @@
     },
     "status": "contacted",
     "sequence_step": "initial",
-    "last_contact": "2026-02-13T09:03:13.777785",
-    "last_email_subject": "Automate your sgCarMart lead response & book 22+ extra appointments/month"
+    "last_email_subject": "Automate your sgCarMart lead response & book 22+ extra appointments/month",
+    "last_contact": "2026-02-13T09:04:05.138726"
   },
   {
     "dealer_id": "DL1549",
@@ -157,9 +157,8 @@
       "phone": "68730300",
       "address": "55 Serangoon North Avenue 4 #08-07"
     },
-    "status": "contacted",
+    "status": "new",
     "sequence_step": "initial",
-    "last_contact": "2026-02-13T09:03:14.819904",
     "last_email_subject": "Automate your sgCarMart lead response & book 22+ extra appointments/month"
   }
 ]

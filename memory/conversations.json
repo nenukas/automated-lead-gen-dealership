@@ -220,5 +220,15 @@
     "template": "initial",
     "recipient": "enquiry@ezy-1.comAdmin",
     "timestamp": "2026-02-13T09:03:14.820780"
+  },
+  {
+    "dealer_id": "DL1341",
+    "channel": "email",
+    "content": "Sent email: Automate your sgCarMart lead response & book 22+ extra appointments/month",
+    "sentiment": "neutral",
+    "next_action": "wait_for_response",
+    "template": "initial",
+    "recipient": "enquiry@vinsautogroup.com.sg",
+    "timestamp": "2026-02-13T09:04:05.139058"
   }
 ]
